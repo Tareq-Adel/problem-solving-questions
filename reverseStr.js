@@ -1,3 +1,4 @@
+// solution 1
 const revStr = (str) => {
 	const arr = str.split("");
 	const len = arr.length;
@@ -11,6 +12,8 @@ const revStr = (str) => {
 	return arr.join("");
 };
 console.log(revStr("tareq"));
+
+// solution 2
 
 const revStr2 = (str) => {
 	let newStr = "";
